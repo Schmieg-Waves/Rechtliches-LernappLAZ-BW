@@ -4,10 +4,10 @@ Dieses Repository enthält die öffentlichen Informationsseiten zur App **Lernap
 
 ## Öffentliche Seiten
 
-- [Startseite](https://schmieg-waves.github.io/schmieg-waves-rechtliches/)
-- [Datenschutzerklärung](https://schmieg-waves.github.io/schmieg-waves-rechtliches/datenschutz.html)
-- [Impressum](https://schmieg-waves.github.io/schmieg-waves-rechtliches/impressum.html)
-- [Über die App](https://schmieg-waves.github.io/schmieg-waves-rechtliches/ueber-die-app.html)
+- [Startseite](https://schmieg-waves.github.io/Rechtliches-LernappLAZ-BW/)
+- [Datenschutzerklärung](https://schmieg-waves.github.io/Rechtliches-LernappLAZ-BW/datenschutz.html)
+- [Impressum](https://schmieg-waves.github.io/Rechtliches-LernappLAZ-BW/impressum.html)
+- [Über die App](https://schmieg-waves.github.io/Rechtliches-LernappLAZ-BW/ueber-die-app.html)
 
 ## Über die App
 
