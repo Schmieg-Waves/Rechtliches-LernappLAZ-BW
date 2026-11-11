@@ -1,10 +1,11 @@
+
 <!doctype html>
 <html lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
-  <meta name="description" content="Datenschutzhinweise zu LernappLAZ-BW.">
+  <meta name="description" content="Datenschutzerklärung zu LernappLAZ-BW.">
   <title>Datenschutzerklärung – LernappLAZ-BW</title>
   <style>
     :root { color-scheme: light; font-family: system-ui, sans-serif; }
@@ -14,8 +15,8 @@
     h1 { margin-top: 0; line-height: 1.2; }
     h2 { margin: 28px 0 8px; font-size: 1.15rem; }
     p { margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
-    nav { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0; }
-    nav a, a { color: #075fb8; }
+    nav { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 24px; }
+    a { color: #075fb8; }
     footer { margin-top: 36px; border-top: 1px solid #d8dee5; padding-top: 16px;
       color: #526170; font-size: .9rem; }
     @media (max-width: 600px) {
@@ -25,79 +26,90 @@
 </head>
 <body>
   <main>
-    <h1>Datenschutzerklärung</h1>
-
     <nav aria-label="Rechtliche Informationen">
-      <a href="index.html">Startseite</a>
+      <a href="datenschutz.html">Datenschutzerklärung</a>
       <a href="impressum.html">Impressum</a>
       <a href="ueber-die-app.html">Über die App</a>
     </nav>
-
+    <h1>Datenschutzerklärung</h1>
     <section>
-      <h2>Verantwortlicher</h2>
-      <p>Louis Schmieg
-Anschrift: Hofener Weg 33C
-71686 Remseck am Neckar
-E-Mail: <a href="mailto:kontakt.schmiegwaves@icloud.com">kontakt.schmiegwaves@icloud.com</a></p>
-    </section>
+  <h2>Verantwortlicher</h2>
+  <p>Louis Schmieg
+Anschrift: Hofener Weg 33C 71686 Remseck am Neckar
+Deutschland
+E-Mail: kontakt.schmiegwaves@icloud.com</p>
+</section>
+<section>
+  <h2>Umfang und Zweck der Datenverarbeitung</h2>
+  <p>Die App benötigt kein Benutzerkonto. Nach dem derzeitigen Implementierungsstand betreibt der Anbieter keinen eigenen Server für Nutzerdaten und verwendet in der App keine Werbe-, Analyse- oder Tracking-SDKs. Personenbezogene Eingaben aus den Übungen werden nicht dauerhaft gespeichert. Dies gilt auch für die Gold-Inhalte für Gruppe und Staffel. Die App erstellt keine personenbezogenen Lernprofile und übermittelt keine Übungsantworten zur Bewertung an einen KI-Dienst. Es gibt keine automatisierte Entscheidungsfindung einschließlich Profiling im Sinne von Art. 22 DSGVO; Übungsbewertungen haben keine rechtliche oder vergleichbar erhebliche Wirkung.</p>
+</section>
+<section>
+  <h2>Übungsantworten, Bewertungen und Zeiten</h2>
+  <p>Getippte und erkannte Antworten, Reihenfolgen, Übungsergebnisse, Zeitmessungen und eingegebene Fehlerpunkte werden für die laufende Übung im Arbeitsspeicher verarbeitet. Die App führt darüber keine dauerhafte Lernhistorie und überträgt diese Angaben nicht an den Anbieter. Die Bewertung der Beschreibungen in Gerätekunde und Gefahrensymbolen erfolgt lokal anhand hinterlegter Begriffe und Synonyme. Die Spracherkennung selbst kann dagegen, wie nachfolgend beschrieben, Dienste des Betriebssystems verwenden.</p>
+</section>
+<section>
+  <h2>Lokale Speicherung deiner Auswahl</h2>
+  <p>Die gewählte Formation, Funktion und Darstellung (Hell- oder Dunkelmodus) werden mit SharedPreferences auf deinem Gerät gespeichert, damit die App deine Auswahl bei der nächsten Nutzung wiederherstellen kann. Zusätzlich werden die letzte Truppauslosung und die zuletzt ausgeloste Gold-Modulkombination gespeichert, für Gruppe und Staffel getrennt. Die Auslosung verwendet Teilnehmernummern und Funktionen, keine Namen. Die zuletzt gespeicherte Auslosung hilft, unmittelbare Wiederholungen bei der nächsten Auslosung zu vermeiden. Die App überträgt diese Auswahl nicht an den Anbieter. Die Speicherung bleibt bestehen, bis du sie änderst oder die App-Daten auf deinem Gerät löschst. Da die Werte nur lokal gespeichert und nicht an den Anbieter übertragen werden, kann der Anbieter auf sie nicht zugreifen. Soweit § 25 TDDDG anwendbar ist, wird die Ausnahme nach § 25 Abs. 2 Nr. 2 TDDDG für die Bereitstellung ausdrücklich gewünschter Funktionen herangezogen: Wiederherstellen der gewählten Formation, Funktion und Darstellung sowie Auslosen ohne unmittelbare Wiederholung. Es werden keine zusätzlichen Werte für Werbung oder Reichweitenmessung gespeichert. Unabhängig davon können Betriebssystem oder Geräteanbieter lokale App-Daten nach deinen Geräteeinstellungen in Sicherungskopien aufnehmen. Diese Sicherungen werden nicht vom App-Anbieter betrieben.</p>
+</section>
+<section>
+  <h2>Mikrofon und Spracherkennung</h2>
+  <p>Die App bietet in ausgewählten Übungen eine freiwillige Spracheingabe an. Wenn du diese Funktion verwendest, benötigt die App Zugriff auf das Mikrofon und gegebenenfalls die Spracherkennung deines Geräts. Technisch verwendet die App das Flutter-Paket speech_to_text: Unter iOS wird Apples Speech-Framework mit SFSpeechRecognizer verwendet; unter Android wird über SpeechRecognizer der auf dem Gerät eingerichtete Erkennungsdienst angesprochen. Das kann beispielsweise ein Google-Dienst sein; die App legt keinen bestimmten Android-Anbieter fest. Die aufgenommenen Sprachdaten werden zur Umwandlung in Text verarbeitet. Je nach Betriebssystem, Gerät und unterstützter Sprache kann die Verarbeitung direkt auf deinem Gerät oder über Server des jeweiligen Spracherkennungsanbieters erfolgen. Die App erzwingt keinen Offline-Modus. Verarbeitet werden die aufgenommenen Audiodaten, die gewählte Erkennungssprache (Deutsch) und die daraus erkannten Texte; beim servergestützten Dienst können auch Verbindungs- und Geräteinformationen verarbeitet werden. Der App-Anbieter speichert die Audioaufnahmen und die erkannten Texte nicht dauerhaft und übermittelt sie nicht an eigene Server. Du kannst die Spracheingabe über die Berechtigungseinstellungen deines Geräts deaktivieren und stattdessen die Texteingabe verwenden. Alle betroffenen Übungen lassen sich auch ohne Spracheingabe nutzen. Die Verarbeitung durch die App dient nur der von dir angeforderten Spracheingabe und anschließenden lokalen Übungsbewertung. Dafür wird Art. 6 Abs. 1 lit. f DSGVO herangezogen, mit dem berechtigten Interesse, eine freiwillig angeforderte Eingabealternative bereitzustellen. Die Systemberechtigung ist eine technische Freigabe und nicht automatisch eine datenschutzrechtliche Einwilligung. Für die Verarbeitung zu eigenen Zwecken durch den Systemanbieter gelten dessen Rechtsgrundlagen und Datenschutzhinweise. Eine Mikrofonberechtigung garantiert keine ausschließlich lokale Spracherkennung. Ob eine Übermittlung ins Ausland erfolgt und welche Garantien dafür gelten, hängt vom eingesetzten Spracherkennungsanbieter ab. Weitere Informationen findest du bei Apple: <a href="https://www.apple.com/legal/privacy/en-ww/" rel="noopener noreferrer">https://www.apple.com/legal/privacy/en-ww/</a> sowie in den Datenschutzhinweisen des auf deinem Android-Gerät eingerichteten Spracherkennungsanbieters.</p>
+</section>
+<section>
+  <h2>Verteilung über Apple TestFlight</h2>
+  <p>Bei einer Beta-Verteilung über Apple TestFlight verarbeitet Apple automatisch Nutzungs- und Absturzdaten sowie freiwillig eingereichtes Feedback nach den eigenen Datenschutzhinweisen. Apple kann dem App-Anbieter in App Store Connect Nutzungsinformationen, Absturzberichte und von dir übermitteltes Feedback bereitstellen. Abhängig von der Einladung können dem Anbieter auch Testerinformationen angezeigt werden. Nach Apples TestFlight-Hinweisen können dazu Installations- und Sitzungszahlen, App-Version, Gerätemodell und Gerätekennung, Betriebssystemversion, Gerätesprache und Absturzprotokolle gehören. Bei freiwilligem Feedback können Kommentare, Screenshots und weitere technische Angaben hinzukommen. Bei einer Einladung ausschließlich über einen öffentlichen Link werden Name und E-Mail-Adresse dem Anbieter nicht angezeigt. Die automatische TestFlight-Erfassung ist nicht dasselbe wie der freiwillige E-Mail-Feedback-Button der App. Der Anbieter verwendet die verfügbaren Daten zur Auswertung der Beta und zur Verbesserung sowie Fehlerbehebung der App. Er bewahrt erhaltene Daten nur so lange auf, wie sie dafür benötigt werden, und löscht sie anschließend, soweit keine gesetzlichen Pflichten oder andere rechtmäßige Gründe entgegenstehen. Apple verarbeitet Daten für TestFlight auch in eigener Verantwortung. Apple nennt für Beta-Feedback eine Speicherung von einem Jahr; Absturz- und Nutzungsdaten können bis zur Behebung von Fehlern aufbewahrt werden. Diese Fristen betreffen Apple, nicht eigene Kopien beim App-Anbieter. Informationen zu Apples Verarbeitung und Speicherung: <a href="https://www.apple.com/legal/privacy/data/en/test-flight/" rel="noopener noreferrer">Apple TestFlight &amp; Privacy</a>.</p>
+</section>
+<section>
+  <h2>Externe Internetseiten</h2>
+  <p>Wenn du einen Quellen- oder Richtlinienlink oder ein verlinktes externes Hilfstool, etwa die digitale Atemschutzüberwachungstafel, öffnest, wechselt die App zum Browser oder PDF-Betrachter deines Geräts. Dabei wird eine Verbindung zur jeweiligen Webseite hergestellt. Der Betreiber der Webseite und gegebenenfalls der Browser- oder Plattformanbieter können dabei technisch erforderliche Verbindungsdaten (zum Beispiel IP-Adresse und Zeitpunkt des Abrufs) verarbeiten. Für diese Verarbeitung sind die jeweiligen Anbieter verantwortlich; es gelten deren Datenschutzhinweise. Die App bindet diese Webseiten nicht innerhalb der App ein.</p>
+</section>
+<section>
+  <h2>Hosting dieser Datenschutzerklärung</h2>
+  <p>Die öffentliche Fassung dieser Datenschutzerklärung wird über GitHub Pages bereitgestellt. Beim Aufruf der Webseite werden die für die Auslieferung erforderlichen Verbindungsdaten an GitHub übermittelt. GitHub kann dabei insbesondere IP-Adresse, Zeitpunkt des Zugriffs sowie Browser- und Geräteinformationen verarbeiten. Für diese Bereitstellung durch den App-Anbieter wird Art. 6 Abs. 1 lit. f DSGVO herangezogen. Berechtigtes Interesse ist die öffentliche, zuverlässige und sichere Bereitstellung der Rechtstexte. Die erzeugten Seiten laden keine externen Schriftarten, Analyse-Skripte oder Tracking-Pixel und setzen selbst keine Cookies. Der App-Anbieter führt keine eigenen Zugriffsprotokolle. GitHub beschreibt die Verarbeitung von Webseiten- und Dienstnutzungsdaten in seiner allgemeinen Datenschutzerklärung als Verarbeitung in eigener Verantwortung. Die Aufbewahrung bei GitHub richtet sich nach den dort genannten Zwecken, gesetzlichen Pflichten und Sicherheitsanforderungen: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">GitHub Privacy Statement</a>.</p>
+</section>
+<section>
+  <h2>Empfänger und Übermittlungen</h2>
+  <p>Der App-Anbieter erhält keine Übungsantworten und keine Auswahl aus einem App-Backend. Daten können an den vom Betriebssystem verwendeten Spracherkennungsanbieter übermittelt werden, soweit dies für dessen Dienst und deine Geräteeinstellungen erforderlich ist. Beim Öffnen externer Quellen erhalten deren Webseiten die für den Abruf erforderlichen Verbindungsdaten. Bei Feedback per E-Mail verarbeiten auch die beteiligten E-Mail-Dienste Daten. Bei der Beta-Verteilung und beim Aufruf der öffentlichen Datenschutzerklärung sind außerdem Apple beziehungsweise GitHub beteiligt, wie in den jeweiligen Abschnitten beschrieben. Die App besitzt keinen eigenen Dienst für Auslandsübermittlungen von Übungsantworten. Die Auswahl externer Dienste durch den Anbieter und die Verarbeitung durch diese Dienste sind jedoch getrennt zu betrachten.</p>
+</section>
+<section>
+  <h2>Verarbeitung außerhalb der EU und des EWR</h2>
+  <p>Apple gibt in seiner Datenschutzerklärung an, dass für Personen im EWR Apple Distribution International Limited in Irland verantwortlich ist und Daten auch von Apple Inc. in den USA verarbeitet beziehungsweise gespeichert werden können. Apple nennt für Übermittlungen aus dem EWR Standardvertragsklauseln der Europäischen Kommission. Informationen und eine Möglichkeit, eine Kopie anzufragen: <a href="https://www.apple.com/legal/privacy/en-ww/" rel="noopener noreferrer">https://www.apple.com/legal/privacy/en-ww/</a> und <a href="https://www.apple.com/legal/privacy/contact/" rel="noopener noreferrer">https://www.apple.com/legal/privacy/contact/</a>.
 
-    <section>
-      <h2>Umfang und Zweck der Datenverarbeitung</h2>
-      <p>Die App benötigt kein Benutzerkonto. Nach dem derzeitigen Implementierungsstand betreibt der Anbieter keinen eigenen Server für Nutzerdaten und verwendet in der App keine Werbe-, Analyse- oder Tracking-SDKs. Personenbezogene Eingaben aus den Übungen werden nicht dauerhaft gespeichert.</p>
-    </section>
+GitHub nennt die Verarbeitung unter anderem in den USA und weiteren Ländern sowie Standardvertragsklauseln für Übermittlungen in Länder ohne Angemessenheitsbeschluss. GitHub erklärt außerdem eine Zertifizierung unter dem EU-US Data Privacy Framework. Ein Angemessenheitsbeschluss kann nur für Übermittlungen greifen, die von einer gültigen Zertifizierung und ihrem Geltungsbereich erfasst sind. Weitere Informationen zu Garantien und Datenschutzkontakten: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">GitHub Privacy Statement</a>.
 
-    <section>
-      <h2>Lokale Speicherung deiner Auswahl</h2>
-      <p>Die gewählte Formation und Funktion werden mit SharedPreferences auf deinem Gerät gespeichert, damit die App deine Auswahl bei der nächsten Nutzung wiederherstellen kann. Die App überträgt diese Auswahl nicht an den Anbieter. Die Speicherung bleibt bestehen, bis du sie änderst oder die App-Daten auf deinem Gerät löschst. Da die Werte nur lokal gespeichert und nicht an den Anbieter übertragen werden, kann der Anbieter auf sie nicht zugreifen. Soweit § 25 TDDDG anwendbar ist, wird die Speicherung nur verwendet, um die von dir gewählte Funktion bereitzustellen.</p>
-    </section>
-
-    <section>
-      <h2>Mikrofon und Spracherkennung</h2>
-      <p>Die App bietet in ausgewählten Übungen eine freiwillige Spracheingabe an. Wenn du diese Funktion verwendest, benötigt die App Zugriff auf das Mikrofon und gegebenenfalls die Spracherkennung deines Geräts. Die aufgenommenen Sprachdaten werden zur Umwandlung in Text verarbeitet. Je nach Betriebssystem, Gerät und unterstützter Sprache kann die Verarbeitung direkt auf deinem Gerät oder über Server des jeweiligen Spracherkennungsanbieters erfolgen. Der App-Anbieter speichert die Audioaufnahmen und die erkannten Texte nicht dauerhaft und übermittelt sie nicht an eigene Server. Du kannst die Spracheingabe über die Berechtigungseinstellungen deines Geräts deaktivieren und stattdessen die Texteingabe verwenden. Weitere Informationen findest du in den Datenschutzhinweisen des jeweiligen Spracherkennungsanbieters.</p>
-    </section>
-
-    <section>
-      <h2>Verteilung über Apple TestFlight</h2>
-      <p>Bei einer Beta-Verteilung über Apple TestFlight verarbeitet Apple Nutzungs- und Absturzdaten sowie freiwillig eingereichtes Feedback nach den eigenen Datenschutzhinweisen. Apple kann dem App-Anbieter in App Store Connect Nutzungsinformationen, Absturzberichte und von dir übermitteltes Feedback bereitstellen. Abhängig von der Einladung können dem Anbieter auch Testerinformationen angezeigt werden. Der Anbieter verwendet die verfügbaren Daten zur Auswertung der Beta und zur Verbesserung sowie Fehlerbehebung der App. Er bewahrt erhaltene Daten nur so lange auf, wie sie dafür benötigt werden, und löscht sie anschließend, soweit keine gesetzlichen Pflichten oder andere rechtmäßige Gründe entgegenstehen. Apple verarbeitet Daten für TestFlight auch in eigener Verantwortung. Weitere Informationen und Angaben zu Apples Verarbeitung und Speicherung: <a href="https://www.apple.com/legal/privacy/data/en/test-flight/" target="_blank" rel="noopener noreferrer">Datenschutzhinweise zu Apple TestFlight</a>.</p>
-    </section>
-
-    <section>
-      <h2>Externe Internetseiten</h2>
-      <p>Wenn du einen Quellen- oder Richtlinienlink öffnest, wechselt die App zum Browser oder PDF-Betrachter deines Geräts. Dabei wird eine Verbindung zur jeweiligen Webseite hergestellt. Der Betreiber der Webseite und gegebenenfalls der Browser- oder Plattformanbieter können dabei technisch erforderliche Verbindungsdaten (zum Beispiel IP-Adresse und Zeitpunkt des Abrufs) verarbeiten. Für diese Verarbeitung sind die jeweiligen Anbieter verantwortlich; es gelten deren Datenschutzhinweise. Die App bindet diese Webseiten nicht innerhalb der App ein.</p>
-    </section>
-
-    <section>
-      <h2>Hosting dieser Datenschutzerklärung</h2>
-      <p>Die öffentliche Fassung dieser Datenschutzerklärung wird über GitHub Pages bereitgestellt. Beim Aufruf der Webseite werden die für die Auslieferung erforderlichen Verbindungsdaten an GitHub übermittelt. GitHub kann dabei insbesondere IP-Adresse, Zeitpunkt des Zugriffs sowie Browser- und Geräteinformationen verarbeiten. Für diese Verarbeitung gelten die <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">Datenschutzhinweise von GitHub</a>.</p>
-    </section>
-
-    <section>
-      <h2>Empfänger und Übermittlungen</h2>
-      <p>Der App-Anbieter erhält keine Übungsantworten und keine Auswahl aus einem App-Backend. Daten können an den vom Betriebssystem verwendeten Spracherkennungsanbieter übermittelt werden, soweit dies für dessen Dienst und deine Geräteeinstellungen erforderlich ist. Beim Öffnen externer Quellen erhalten deren Webseiten die für den Abruf erforderlichen Verbindungsdaten. Einzelheiten zur Datenverarbeitung dieser Drittanbieter findest du in deren Datenschutzhinweisen.</p>
-    </section>
-
-    <section>
-      <h2>Kontaktaufnahme per E-Mail</h2>
-      <p>Wenn du den App-Anbieter per E-Mail kontaktierst, werden deine E-Mail-Adresse sowie die von dir übermittelten Informationen verarbeitet, um deine Anfrage zu bearbeiten und zu beantworten. Rechtsgrundlage ist grundsätzlich das berechtigte Interesse an der Beantwortung und Bearbeitung von Anfragen gemäß Art. 6 Abs. 1 lit. f DSGVO. Bezieht sich deine Anfrage auf vorvertragliche Maßnahmen, kann Art. 6 Abs. 1 lit. b DSGVO maßgeblich sein. Die Daten werden grundsätzlich gelöscht, sobald sie für die Bearbeitung nicht mehr benötigt werden, sofern keine gesetzlichen Aufbewahrungspflichten oder andere rechtmäßige Gründe für eine weitere Speicherung bestehen.</p>
-    </section>
-
-    <section>
-      <h2>Rechtsgrundlagen und Speicherdauer</h2>
-      <p>Soweit der Anbieter personenbezogene Daten selbst verarbeitet, erfolgt dies nur zu den in diesen Hinweisen genannten Zwecken und auf den jeweils beschriebenen Rechtsgrundlagen. Für E-Mail-Anfragen gelten die im Abschnitt „Kontaktaufnahme per E-Mail“ genannten Rechtsgrundlagen. Von Apple über TestFlight bereitgestellte Daten verwendet der Anbieter auf Grundlage seines berechtigten Interesses an der Auswertung der Beta sowie an der Verbesserung und Fehlerbehebung der App (Art. 6 Abs. 1 lit. f DSGVO). Solche Daten werden nur so lange aufbewahrt, wie sie für diese Zwecke benötigt werden; anschließend werden sie gelöscht, soweit keine gesetzlichen Pflichten oder andere rechtmäßige Gründe für eine weitere Speicherung bestehen. Die Speicherdauer bei Apple richtet sich nach Apples Datenschutzhinweisen.</p>
-    </section>
-
-    <section>
-      <h2>Deine Rechte und Kontakt</h2>
-      <p>Du kannst im Rahmen der gesetzlichen Voraussetzungen Auskunft über dich betreffende personenbezogene Daten sowie Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit verlangen. Soweit eine Verarbeitung auf deiner Einwilligung beruht, kannst du diese mit Wirkung für die Zukunft widerrufen. Soweit die Verarbeitung auf Art. 6 Abs. 1 lit. f DSGVO beruht, kannst du aus Gründen, die sich aus deiner besonderen Situation ergeben, Widerspruch einlegen. Außerdem hast du das Recht, dich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren. Datenschutzanfragen kannst du an <a href="mailto:kontakt.schmiegwaves@icloud.com">kontakt.schmiegwaves@icloud.com</a> richten. Da die App-Auswahl nur lokal gespeichert wird, kann der Anbieter auf diese Daten nicht zugreifen.</p>
-    </section>
-
-    <section>
-      <h2>Änderungen</h2>
-      <p>Diese Hinweise müssen aktualisiert werden, wenn sich die Funktionen oder die Datenverarbeitung der App ändern. Maßgeblich ist die jeweils in der App angezeigte Fassung.</p>
-    </section>
-
+Für Android-Spracherkennung hängt der Empfänger vom eingerichteten Systemdienst ab; deshalb lässt sich kein einheitliches Zielland oder Übermittlungsinstrument für alle Geräte nennen. Prüfe vor der freiwilligen Nutzung die Datenschutzhinweise dieses Dienstes. Diese Angaben beschreiben die veröffentlichten Informationen der Anbieter und sind keine Zusicherung, dass jede konkrete Drittlandübermittlung allein damit rechtlich geklärt ist.</p>
+</section>
+<section>
+  <h2>Kontaktaufnahme per E-Mail</h2>
+  <p>Wenn du den App-Anbieter per E-Mail kontaktierst, werden deine E-Mail-Adresse sowie die von dir übermittelten Informationen verarbeitet, um deine Anfrage zu bearbeiten und zu beantworten. Der Feedback-Button auf der Startseite öffnet über „E-Mail schreiben“ deine E-Mail-App mit Empfängeradresse und Betreff. Es wird nicht automatisch eine Nachricht versendet; du entscheidest über Inhalt und Versand. Die App fügt keine Übungsantworten, Auslosungen oder Diagnosedaten automatisch bei. Bitte übermittle keine personenbezogenen Daten von Einsatzbetroffenen oder anderen Personen; entferne solche Angaben auch aus beigefügten Screenshots. Der Anbieter bearbeitet die Nachrichten selbst. Feedback und Anhänge werden ohne gesonderte Zustimmung nicht veröffentlicht oder an andere Personen weitergegeben. Die technische Verarbeitung durch die beteiligten E-Mail-Dienste bleibt davon unberührt. Rechtsgrundlage ist grundsätzlich das berechtigte Interesse an der Beantwortung und Bearbeitung von Anfragen gemäß Art. 6 Abs. 1 lit. f DSGVO. Bezieht sich deine Anfrage auf vorvertragliche Maßnahmen, kann Art. 6 Abs. 1 lit. b DSGVO maßgeblich sein. Die Daten werden grundsätzlich gelöscht, sobald sie für die Bearbeitung nicht mehr benötigt werden, sofern keine gesetzlichen Aufbewahrungspflichten oder andere rechtmäßige Gründe für eine weitere Speicherung bestehen.</p>
+</section>
+<section>
+  <h2>Spenden-Button</h2>
+  <p>Der Spenden-Button zeigt derzeit ausschließlich einen Platzhalterhinweis. Er öffnet keinen Zahlungsdienst und erfasst keine Zahlungs- oder Spendendaten. Wenn später eine Spendenfunktion eingerichtet wird, werden die Datenschutzhinweise vor deren Nutzung entsprechend angepasst.</p>
+</section>
+<section>
+  <h2>Rechtsgrundlagen und Speicherdauer</h2>
+  <p>Soweit der Anbieter personenbezogene Daten selbst verarbeitet, erfolgt dies nur zu den in diesen Hinweisen genannten Zwecken und auf den jeweils beschriebenen Rechtsgrundlagen. Für E-Mail-Anfragen gelten die im Abschnitt „Kontaktaufnahme per E-Mail“ genannten Rechtsgrundlagen. Von Apple über TestFlight bereitgestellte Daten verwendet der Anbieter auf Grundlage seines berechtigten Interesses an der Auswertung der Beta sowie an der Verbesserung und Fehlerbehebung der App (Art. 6 Abs. 1 lit. f DSGVO). Solche Daten werden nur so lange aufbewahrt, wie sie für diese Zwecke benötigt werden; anschließend werden sie gelöscht, soweit keine gesetzlichen Pflichten oder andere rechtmäßige Gründe für eine weitere Speicherung bestehen. Eine feste Frist für eigene Kopien von Kontakt-E-Mails und Beta-Berichten ist derzeit nicht festgelegt. Kriterien für die weitere Erforderlichkeit sind, ob eine Anfrage abschließend beantwortet wurde, ein gemeldeter Fehler behoben und die Korrektur überprüft wurde oder Rückfragen noch offen sind. Entfällt der Zweck, sind personenbezogene Nachrichten und Anhänge zu löschen; rein sachliche Verbesserungen können ohne Personenbezug weiterverwendet werden. Bei einer gesetzlichen Aufbewahrungspflicht oder notwendigen Rechtsverteidigung sind die Daten nur für diesen Zweck aufzubewahren. Die Speicherdauer bei Apple richtet sich nach Apples Datenschutzhinweisen. Für die lokale Spracheingabe und die öffentliche Webseite sind die Rechtsgrundlagen in den jeweiligen Abschnitten beschrieben.</p>
+</section>
+<section>
+  <h2>Freiwilligkeit der Angaben</h2>
+  <p>Für die Lerninhalte ist kein Benutzerkonto und keine Angabe von Namen oder Kontaktinformationen erforderlich. Spracheingabe und Kontaktaufnahme per E-Mail sind freiwillig. Ohne die erforderlichen Systemberechtigungen funktioniert die Spracheingabe nicht; die Texteingabe bleibt möglich. Ohne Absenderadresse beziehungsweise ausreichende Angaben zur Anfrage kann eine persönliche Antwort gegebenenfalls nicht erfolgen. Es besteht keine gesetzliche oder vertragliche Pflicht, Feedback einzureichen. Technische Verbindungsdaten sind für den Abruf einer externen Webseite erforderlich; die Rechtstexte können alternativ direkt in der App gelesen werden. Die automatische Erfassung bei Nutzung von TestFlight richtet sich nach Apples Bedingungen.</p>
+</section>
+<section>
+  <h2>Deine Rechte und Kontakt</h2>
+  <p>Du kannst im Rahmen der gesetzlichen Voraussetzungen Auskunft über dich betreffende personenbezogene Daten sowie Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit verlangen. Soweit eine Verarbeitung auf deiner Einwilligung beruht, kannst du diese mit Wirkung für die Zukunft widerrufen. Soweit die Verarbeitung auf Art. 6 Abs. 1 lit. f DSGVO beruht, kannst du aus Gründen, die sich aus deiner besonderen Situation ergeben, Widerspruch einlegen. Außerdem hast du das Recht, dich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren. Für den Anbieter in Baden-Württemberg ist dies der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg (LfDI): <a href="https://www.baden-wuerttemberg.datenschutz.de/" rel="noopener noreferrer">https://www.baden-wuerttemberg.datenschutz.de/</a>. Datenschutzanfragen kannst du an kontakt.schmiegwaves@icloud.com richten. Da die App-Auswahl nur lokal gespeichert wird, kann der Anbieter auf diese Daten nicht zugreifen.</p>
+</section>
+<section>
+  <h2>Änderungen</h2>
+  <p>Diese Hinweise müssen aktualisiert werden, wenn sich die Funktionen oder die Datenverarbeitung der App ändern. Der Stand dieser Fassung ist unten angegeben. Die öffentliche HTML-Fassung wird aus denselben App-Texten erzeugt; bei einer Veröffentlichung ist darauf zu achten, dass beide Fassungen auf demselben Stand sind.</p>
+</section>
+<section>
+  <h2>Stand dieser Informationen</h2>
+  <p>11. November 2026</p>
+</section>
     <footer>
-      <p>Datenschutzerklärung von LernappLAZ-BW · <a href="mailto:kontakt.schmiegwaves@icloud.com">Kontakt</a></p>
+      <p>Datenschutzerklärung von LernappLAZ-BW. Kontakt:
+        <a href="mailto:kontakt.schmiegwaves@icloud.com">kontakt.schmiegwaves@icloud.com</a>.</p>
     </footer>
   </main>
 </body>
